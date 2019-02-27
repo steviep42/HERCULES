@@ -1,0 +1,26 @@
+# Software Literacy 
+
+**Summary:** Having software literacy is essential to research success. Being able to import/transform data, accomplish analytic tasks, create plots, query databases, and create digital assets will facilitate publication and grant submissions. Many faculty would like to become more self-sufficient.  
+
+## Concerns About Falling Behind
+
+Faculty have improved their knowledge via self-education though most want more experience and are frustrated with not being able to fully comprehend the code in published pipelines and/or how one might modify or extend the code to pursue ad-hoc analysis paths. Consequently, they feel "locked in" and limited by their relative lack of the UNIX command line and general programming knowledge and might not then feel confident enough to modify code for fear of "breaking" something.   
+
+## Open Source Tools
+
+Some faculty have graduate training and exposure to SAS and remain attracted to the integrated nature of those tools but realize that R and Python are increasingly the more relevant languages. To this end, Coursera and Edx courses have been useful to pick up targeted knowledge though it is generally agreed that project driven coding is the best for learning and reinforcing skills. Leveraging Software Carpentry https://software-carpentry.org/lessons style courses is also a reasonable possibility since they offer 1 to 3 days workshops desgined to impart basic computation skills for researchers.
+
+## Attracting Software Literate Students
+
+There is an associated interest in attracting students who possess programming skills or are at the very least enthusiastic about a learning path that involves programming. This is both to facilitate research and to make the student experience more productive since analysis of experimental data types is likely to be a major theme in most thesis projects. It is important to note that such students are not being seen as a substitute for more formal types of support though as part of their educational experience they could work in an internal service center or core to interact with experienced professionals. Again, this is not intended to be a roundabout method of getting research projects accomplished but an attempt at accelerating student knowledge of "real world" analysis applications. 
+
+## Source Code Maintenance
+
+Many of the reference software pipelines for analysis are obtained from literature references, training, and/or vignettes that might be supplied with a given software package. It is expected that changes will be made to scripts simply to accommodate local data sources which might very well lead to questions and interactions with package authors, statisticians, and more generally anyone who might be able to help the research bypass roadblocks. Thus, the state of a script or code can vary greatly at any time depending on where in the process things are. These scripts are almost always maintained on personal laptops or desktop computers although at least one person uses Git and GitHub to archive scripts. Even so, the scripts are typically highly customized for a specific project. Also, GitHub is for maintaining code changes and *not* data thus it is inappropriate to host data and results (intermediate or final) along with the code. It's also true that GitHub exists to encourage collaboration and co-development though not everyone who would use Git or GitHub feels that the code is in a "good enough" state to push to a repository for general use and inspection.  
+
+## Notebooks and Reproducible Research 
+
+Some faculty are using R Notebooks to capture a narrative alongside the code used to generate results. These notebooks are prime candidates for registration on GitHub as it allows others to benefit from the work and permits easy retrieval of previous versions. Of course, some do not wish to share their code for various reasons such as that is in development. Another reason is that the end result is simply a minor variation of a published pipeline in response to specific sequencing problems or situations that might not relate to another PIs project. Some labs have in fact maintained scripts in GitHub although the practice is not prevalent. 
+
+Reproducing research is major concern that has been placed aside in favor of simply being able to get analysis accomplished (which itself has been a challenge). In short “the data can’t grow roots anywhere” so being able to integrate all intermediate results, let alone track the provenance and chain of custody thereof, has been very challenging outside of the simplest of projects. A larger issue exists in knowing the "best practices" associated with creating reproducible resources. Some faculty do know about "notebooks" in R and Python and see the value in using them although integrating a personal notebook with that of an analyst or collaborator remains a challenge. Keeping copies of "cleaning" scripts in addition to analysis pipelines is a priority though concern remains at being able to reproduce results if and when key personnel leave the department. 
+
