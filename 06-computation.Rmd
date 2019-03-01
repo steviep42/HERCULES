@@ -1,10 +1,10 @@
 # Computation
 
-**Summary:** Computation underlies research analytics and faculty use whatever resources they can find. Lots of code and data winds up on the laptops of collaborators and students which works against reproducibility, security, and project continuity. 
+**Summary:** Computation underlies research analytics and faculty use whatever resources they can find. Lots of code and data winds up on the laptops of collaborators and students which works against reproducibility, security, and continuity. 
 
 ## Data Management and Computation
 
-Smaller projects can in fact be completed using laptops and desktops though the trend has rapidly moved towards more samples per project thus being able to easily and conveniently compute against multiple data sources is very important. This is a limitation of Emory Box in that the data cannot be directly accessed via APIs (Application Programming Interfaces). It might be more convenient for it to be in Amazon S3 bucket or a folder attached to a compute node, or in a system such as [DNANexus](https://www.dnanexus.com/) or [Seven Bridges](https://www.sevenbridges.com/) both of which are enterprise frameworks for data management, analysis, and computation. These are currently being considered by WCI in support of their ORIEN http://oriencancer.org/#about  project though it is quite possible that HERCULES could benefit from using the license also since it would provide a standard tool for management, analysis, and compute. However, embracing these tools would still involve formal training and orientation to ensure productivity. 
+Smaller projects can in fact be completed using laptops and desktops though the trend has rapidly moved towards more samples per project thus being able to conveniently compute against multiple data sources is very important. This is a limitation of Emory Box in that the data cannot be directly accessed via APIs (Application Programming Interfaces). It might be more convenient for it to be in an Amazon S3 bucket or a folder attached to a compute node, or in a system such as [DNANexus](https://www.dnanexus.com/) which is an enterprise framework for data management, analysis, and computation. This is currently being considered by WCI in support of their ORIEN http://oriencancer.org/#about  project though it is possible that HERCULES could share the license though it would still involve formal training and orientation to ensure productivity. 
 
 ## Cloud vs Local Resources
 
