@@ -25,7 +25,7 @@
 <meta name="author" content="Steve Pittard">
 
 
-<meta name="date" content="2019-03-01">
+<meta name="date" content="2019-05-21">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -81,6 +81,8 @@
 <li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#related-topics"><i class="fa fa-check"></i><b>1.4</b> Related Topics</a><ul>
 <li class="chapter" data-level="1.4.1" data-path="index.html"><a href="index.html#research-desktop-support"><i class="fa fa-check"></i><b>1.4.1</b> Research Desktop Support</a></li>
 <li class="chapter" data-level="1.4.2" data-path="index.html"><a href="index.html#the-promise-of-cloud-computing"><i class="fa fa-check"></i><b>1.4.2</b> The Promise of Cloud Computing</a></li>
+<li class="chapter" data-level="1.4.3" data-path="index.html"><a href="index.html#automl-kaas-knolwedge-as-a-service"><i class="fa fa-check"></i><b>1.4.3</b> AutoML / KaaS (Knolwedge As A Service)</a></li>
+<li class="chapter" data-level="1.4.4" data-path="index.html"><a href="index.html#coordination-costs"><i class="fa fa-check"></i><b>1.4.4</b> Coordination Costs</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="data-management.html"><a href="data-management.html"><i class="fa fa-check"></i><b>2</b> Data Management</a><ul>
@@ -130,7 +132,7 @@
 <div id="header">
 <h1 class="title">Hercules Exposome Informatics Report</h1>
 <p class="author"><em>Steve Pittard</em></p>
-<p class="date"><em>2019-03-01</em></p>
+<p class="date"><em>2019-05-21</em></p>
 </div>
 <div id="preface" class="section level1">
 <h1><span class="header-section-number">Chapter 1</span> Preface</h1>
@@ -275,6 +277,16 @@
 </blockquote>
 <p>Cloud computing offers unprecedented access to scale-able, on-demand computation and storage resources in a manner that allows Emory researchers to be competitive with institutions that possess more extensive on-premise computational infrastructure. In effect, services such as Amazon and Google democratize computing by enabling access to anyone with a credit card and a willingness to learn how to leverage the environment. However, the path to productivity is not always clear and there is confusion on how to approach Amazon services even before considering how to execute at-scale bioinformatics jobs and pipelines. The language of Amazon is one of enterprise services and architecture as opposed to research computing so educational material, even at the institutional level, generally describes services conceptually when what is needed are practical workshops for teaching researchers how to apply the strengths of Amazon in a hands on way.</p>
 <p>The Emory LITS organization is in the process of rolling out a solution (ETA 2019) to help researchers but the larger question relates to what extent the cloud team will provide “in the trenches”, hands on training and help with selecting and managing various instance types, storage resources, and databases above and beyond the architectural level. It would be useful for the LITS cloud team, Core facilities, and/or Rollins IT to offer ongoing orientation and support for adopting cloud resources. This would then simplify the layering of a more formal research oriented analytics services (e.g. HERCULES Data Science group). While we shouldn’t expect IT to engage in research it is reasonable to expect them to educate users at a level that would enable them to be productive with Amazon which is a stated direction for the institution. The HERCULES Center could adopt a policy of “ground up” training that would take users from “zero to hero” relative to cloud use though that would involve more of a commitment (both human and financial) since it would be in addition to research bioinformatics interests. Being able to make assumptions about the level of commitment offered by LITS and Rollins IT would be helpful to plan more effectively though the recommendations described in this documented could initiated independently and adjusted over time.</p>
+</div>
+<div id="automl-kaas-knolwedge-as-a-service" class="section level3">
+<h3><span class="header-section-number">1.4.3</span> AutoML / KaaS (Knolwedge As A Service)</h3>
+<p>One of the advantages of cloud-based services is enthusiastic vendor support of Machine and Deep Learning services designed to be easy to use - inasmuch as one has the requisite knowledge. Both Amazon and Google offer excellent infrastructure support and Google provides training via QwikLabs for the tensorflow product. Both vendors are developing “AutoML” products that strive to relieve the end user of having to select the most appropriate method or model. Nevertheless, as a research institution it is still incumbent upon us to understand and teach the mechanics of ML and DL as well as how to apply it to research. .</p>
+<p>Thus, there remains a large middle ground for students, faculty, and researchers to learn (and implement) these approaches both in sandbox environments and at scale. This in turn would rely upon having a base knowledge of Amazon and Google “how-tos” which ideally would be provided by the IT groups or the Library assuming that “the cloud”&quot; is an institutional priority for computation. Researchers and educators can then layer more specific ML training on top of these basics. This allows research and education to start at a certain level without having to continually “Drop down” to “cloud 101” which would be better offered at the institutional level in a manner similar to that at Harvard. This is particularly important given the number of available ML frameworks such as H20.ai, Keras, PyTorch, tensorflow, mxnet which interact with each other or as standalone tools. Having a base level cloud literacy is essential not only for ML,DL, and AI so the need for basic cloud literacy is essential.</p>
+</div>
+<div id="coordination-costs" class="section level3">
+<h3><span class="header-section-number">1.4.4</span> Coordination Costs</h3>
+<p><strong>This term can describe the price of voluntary effort required to document and communicate project details when handing off work between Core facilities, collaborators, laboratories, and institutions</strong>. It also refers to costs associated with resolving unexpected issues. These costs generally exist in the form of human effort which is (hopefully) accounted for within the existing project scope though this is not always the case - especially in situations wherein investigators (or their proxies) might have followup questions on a Core product or need outside assistance to address scientific or informatics barriers. It is at this point that researchers might then leverage departmental affiliations, engage colleagues in other departments (or institutions), or personal relationships. <strong>The cost of this effort is usually not officially accounted for nor is the effort put forth by those who might contribute to a resolution</strong>. Some of those interviewed refer to this dynamic as being an inevitable part of novel research with less aggressive forms of investigations being more predictable and far more likely to be accomplished using existing institutional resources.</p>
+<p>An example of a significant undocumented coordination cost relates to the effort involved in “shuttling around” project data to accommodate the needs of analysts, statisticians, and collaborators in a way that preserves project continuity although this is more often an intent more so than a reality. <strong>Reducing this type of coordination cost might involve normalizing institutional storage options that in turn would require an unambiguous institutional storage plan along with support mechanisms</strong>. As it stands now investigators can be confused about when to use Emory Box over locally attached desktop storage or Amazon S3. This is particularly true in knowing how to effectively stage a project in a way that does not require frequent relocation because of the growing size of any digital assets emerging from the project. Having a common staging ground (or Data Lake) would help though no novel research project will ever be immune from unexpected issues. Still, the institution could better articulate and support technology solutions in terms that the research can understand in the preparation of grant applications and completion of ongoing projects.</p>
 
 </div>
 </div>
